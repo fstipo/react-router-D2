@@ -25,3 +25,26 @@
 ![navigate on client side](./src/assets/img/path-to-root.png)
 
 - when we use Navlink we get class active - always use NavLink
+
+---
+
+## new way
+
+- instead of Browser router and Routes we will use function createBrowserRouter
+
+<https://reactrouter.com/en/main/routers/picking-a-router>
+
+- in src folder we will have folder for pages and layouts
+
+![src folder](./src/assets/img/folder-src.png)
+
+- import createBrowserRouter
+- import createRoutesFromElement
+- import RouteProvider
+- inside createBrowserRouter we don't use Routes - we use Route
+- inside parent route we have path=" / " element={RouteLayout}
+
+![ap.jsx file](./src/assets/img/app.jsx-file.png)
+
+- RouteLayout component
+- we use Output -> for pages
