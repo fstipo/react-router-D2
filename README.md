@@ -47,4 +47,21 @@
 ![ap.jsx file](./src/assets/img/app.jsx-file.png)
 
 - RouteLayout component
-- we use Output -> for pages
+
+![routeLayout component](./src/assets/img/route-layout.png)
+
+---
+
+### Nested routes
+
+- nested routes
+
+![routeLayout component](./src/assets/img/nested-routes.png)
+
+- help layout component
+
+![helpLayout component](./src/assets/img/help-layout.png)
+
+- src folder
+
+![src folder](./src/assets/img/src-folder2.png)
