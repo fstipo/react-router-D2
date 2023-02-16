@@ -1,10 +1,20 @@
-# react-router-D2
+# React-router | JSON Server | D2
 
 ---
 
 ## install react router latest
 
 **_npm install react-router-dom@latest_**
+
+---
+
+## install JSON Server globally
+
+**_npm install -g json-server_**
+
+- start json server on port 4000
+
+**_json-server -p 4000 -w ./data/db.json_**
 
 ---
 
@@ -69,3 +79,23 @@
 - page not found
 
 ![page not found](./src/assets/img/page-not-found.png)
+
+---
+
+## Loaders
+
+- we use loaders to load data before component renders
+
+- we don't need to use **useEffect**
+
+- make Loader function
+
+![loader function](./src/assets/img/loaderFunction.png)
+
+- in route use that function
+
+![loader function in route](./src/assets/img/loader-in-route.png)
+
+- in component use useLoaderData()
+
+![useLoaderData](./src/assets/img/useLoaderData.png)

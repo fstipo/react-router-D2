@@ -14,17 +14,30 @@ import Contact from "./pages/help/Contact"
 // layouts
 import RootLayout from "./layouts/RootLayout";
 import HelpLayout from "./layouts/HelpLayout";
+import CareersLayout from "./layouts/CareersLayout";
+import Careers from "./pages/careers/Careers";
+
+import { careersLoader } from "./pages/careers/Careers"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
+
       <Route path="help" element={<HelpLayout />}>
         <Route path="faq" element={<Faq />} />
         <Route path="contact" element={<Contact />} />
       </Route>
-    </Route>
+
+      <Route path="careers" element={<CareersLayout />}>
+        <Route
+          index
+          element={<Careers />}
+          loader={careersLoader}
+        />
+      </Route>
+    </Route >
   )
 )
 
