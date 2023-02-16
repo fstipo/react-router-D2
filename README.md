@@ -65,3 +65,7 @@
 - src folder
 
 ![src folder](./src/assets/img/src-folder2.png)
+
+- page not found
+
+![page not found](./src/assets/img/page-not-found.png)
