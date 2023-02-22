@@ -99,3 +99,15 @@
 - in component use useLoaderData()
 
 ![useLoaderData](./src/assets/img/useLoaderData.png)
+
+---
+
+## Route parameters
+
+![route parameters](./src/assets/img/routes-parametars.png)
+
+- to destruct id from url
+
+![id from URL](./src/assets/img/get-id-from-url.png)
+
+- url: careers:5
